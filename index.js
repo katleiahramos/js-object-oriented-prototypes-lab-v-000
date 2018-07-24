@@ -9,9 +9,9 @@ function BoardMember(name, homeState, training){
   // this.approve = function(){
   //   return 'You can do that!'
   // }
-  this.doCharity = function(){
-    return "I like to help people."
-  }
+  // this.doCharity = function(){
+  //   return "I like to help people."
+  // }
 
   this.releasePressStatement = function(){
     return "You will see great things from Scuber."
@@ -32,4 +32,8 @@ BoardMember.prototype.approve = function () {
 
 BoardMember.prototype.doCharity = function () {
     return "I like to help people."
+};
+
+BoardMember.prototype.releasePressStatement = function () {
+  return "You will see great things from Scuber."
 };
